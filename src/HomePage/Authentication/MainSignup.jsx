@@ -37,7 +37,7 @@ const MainSignup = () => {
       setErrors(formErrors);
     } else {
       try {
-        const response = await fetch('http://localhost:3001/api/signup', {
+        const response = await fetch('https://navizitbackend.onrender.com/api/signup', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
