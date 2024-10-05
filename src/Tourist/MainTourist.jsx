@@ -2,6 +2,7 @@ import { useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Rating from "react-rating-stars-component";
+import StarRatings from 'react-star-ratings';
 import NavTourist from "./NavTourist";
 
 export default function MainTourist() {
@@ -152,19 +153,15 @@ export default function MainTourist() {
           {/* Average Rating */}
           <div className="flex flex-col mt-6">
             <div className="flex items-center">
-              <Rating
-                count={5}
-                value={
-                  !isNaN(parseFloat(averageRating))
-                    ? parseFloat(averageRating)
-                    : 0
-                } // Ensure the value is a valid number
-                size={24}
-                isHalf={true} // Allows half-star ratings
-                edit={false} // Make it non-editable for average display
-                activeColor="#ffd700" // Color for the filled stars
-                color="#d1d5db" // Color for the unfilled stars
-              />
+            <StarRatings
+                    rating={averageRating}
+                    starRatedColor="gold" // Color for filled stars
+                    starEmptyColor="gray" // Color for empty stars
+                    numberOfStars={5}
+                    starDimension="24px" // Star size
+                    starSpacing="3px" // Space between stars
+                    name='rating'
+                />
 
               <span className="ml-2 text-gray-700">{averageRating} / 5</span>
             </div>

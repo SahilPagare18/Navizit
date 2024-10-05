@@ -31,12 +31,13 @@ export default function AllFooter() {
           <a href="https://www.facebook.com/profile.php?id=61566412442595" target="_blank" rel="noopener noreferrer">
             <img src={facebookIcon} alt="Facebook" className="h-6 w-6 hover:opacity-75" />
           </a>
-          <a href="https://x.com/navizitguide" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/navizitguide/" target="_blank" rel="noopener noreferrer">
             <img src={instagramIcon} alt="Twitter" className="h-6 w-6 hover:opacity-75" />
           </a>
-          <a href="https://www.instagram.com/navizitguide/" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/navizitguide/" target="_blank" rel="noopener noreferrer">
             <img src={twitterIcon} alt="Instagram" className="h-6 w-6 hover:opacity-75" />
           </a>
+          
           <a href="https://www.linkedin.com/in/navizit-guide-22129a330/" target="_blank" rel="noopener noreferrer" className="h-6 w-6">
             <img src={linkedinIcon} alt="LinkedIn" className="m-0 p-0  hover:opacity-75" />
           </a>
