@@ -1,31 +1,47 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import './NavTourist.css'; // Import custom CSS for hover effects
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import './NavTourist.css';
 
 export default function NavTourist() {
   const [isOpen, setIsOpen] = useState(false);
+  const [theme, setTheme] = useState(() => localStorage.getItem("theme") || "light");
+
+  useEffect(() => {
+    const element = document.documentElement;
+    if (theme === "dark") {
+      element.classList.add("dark");
+      document.body.classList.add("dark");
+    } else {
+      element.classList.remove("dark");
+      document.body.classList.remove("dark");
+    }
+    localStorage.setItem("theme", theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme(prevTheme => (prevTheme === "dark" ? "light" : "dark"));
+  };
 
   return (
-    <nav className="relative bg-gray-900 text-white p-4">
+    <nav className="relative bg-gray-900 text-white p-4 dark:bg-gray-800">
       <div className="flex items-center justify-between">
         {/* Hamburger Icon */}
         <div className="flex items-center">
           <button 
-            className="text-white focus:outline-none hamburger-icon"  // Apply the custom class here
+            className="text-white focus:outline-none hamburger-icon"
             onClick={() => setIsOpen(!isOpen)}
           >
-            <i className="fa-solid fa-bars text-2xl"></i> {/* Adjust icon size here */}
+            <i className="fa-solid fa-bars text-2xl"></i>
           </button>
         </div>
-
+        
         {/* Navbar Links */}
-        <div className={`hidden md:flex md:items-center md:justify-between`}>
+        <div className="hidden md:flex md:items-center md:justify-between">
           <div className="flex flex-row space-x-6">
-            <Link to="/touristplaces"  className="hover-animate font-serif flex items-center ">
+            <Link to="/touristplaces" className="hover-animate font-serif flex items-center">
               <span className="material-symbols-outlined">travel_explore</span>
               <p className='ml-2'>Tourist Places</p>
             </Link>
-            
             <Link to="/hospitals" className="hover-animate font-serif flex items-center">
               <span className="material-symbols-outlined">home_health</span>
               <p className='ml-2'>Hospitals</p>
@@ -40,19 +56,24 @@ export default function NavTourist() {
             </Link>
           </div>
         </div>
-      </div>
 
+        {/* Theme Toggle Button */}
+        <button onClick={toggleTheme} className="ml-4 text-xl">
+          {theme === "light" ? (
+            <i className="fa-solid fa-moon"></i>
+          ) : (
+            <i className="fa-solid fa-sun"></i>
+          )}
+        </button>
+      </div>
+      
       {/* Sliding Menu */}
       <div className={`fixed inset-0 bg-gray-800 bg-opacity-80 z-50 transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300`}>
-        <div className="w-[340px] h-full bg-gray-900 text-white p-6 pr-0 pl-0 flex flex-col space-y-6">
-          
+        <div className="w-[340px] h-full bg-gray-900 text-white p-6 pr-0 pl-0 flex flex-col space-y-6 dark:bg-gray-800">
           <div className='flex justify-between text-3xl pr-4 font-semibold font-title'>
             <h4 className='ml-3'> NAVIZIT</h4>
-            <button
-              className="text-white text-2xl self-end close-icon"  // Apply the close-icon class here
-              onClick={() => setIsOpen(false)}
-            >
-              <i className="fa-solid fa-xmark"></i> {/* Close icon */}
+            <button className="text-white text-2xl self-end close-icon" onClick={() => setIsOpen(false)}>
+              <i className="fa-solid fa-xmark"></i>
             </button>
           </div>
          
@@ -70,7 +91,7 @@ export default function NavTourist() {
               <p className='ml-2'>Emergency Services</p>
             </Link>
             <Link to="/aroundyou" className="hover-glow font-serif flex items-center">
-              <span class="material-symbols-outlined">assistant_navigation</span>             
+              <span className="material-symbols-outlined">assistant_navigation</span>
               <p className='ml-2'>Around You</p>
             </Link>
             <Link to="/home" className="hover-glow font-serif flex items-center">

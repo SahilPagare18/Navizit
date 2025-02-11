@@ -2,7 +2,7 @@ import { useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Rating from "react-rating-stars-component";
-import StarRatings from 'react-star-ratings';
+import StarRatings from "react-star-ratings";
 import NavTourist from "./NavTourist";
 
 export default function MainTourist() {
@@ -18,33 +18,37 @@ export default function MainTourist() {
   // Fetch reviews from the backend on component mount
   useEffect(() => {
     const fetchReviews = async () => {
+     
       try {
+        const encodedLocation = encodeURIComponent(touristLocation);
         const response = await axios.get(
-          `https://navizitbackend.onrender.com/test/reviews/${touristLocation}`
-        );
-        setReviews(response.data); // Store the fetched reviews
-        calculateAverageRating(response.data); // Calculate the average rating
+  `http://localhost:3004/test/reviews/${encodedLocation}`
+);
+
+        console.log("Fetched Reviews:", response.data);
+        setReviews(response.data);
+        calculateAverageRating(response.data);
       } catch (error) {
-        console.log("Error fetching reviews:", error);
+        console.error("Error fetching reviews:", error);
       }
     };
 
-    fetchReviews(); // Call the fetch function
-  }, [touristLocation]); // Re-fetch reviews whenever the touristLocation changes
+    fetchReviews();
+  }, [touristLocation]);
 
-  // Calculate average rating based on current reviews
+  // Calculate average rating based on reviews
   const calculateAverageRating = (reviewsData) => {
-    if (reviewsData.length === 0) {
+    if (!reviewsData || reviewsData.length === 0) {
       setAverageRating(0);
       return;
     }
 
     const totalRating = reviewsData.reduce(
-      (sum, review) => sum + review.rating,
+      (sum, review) => sum + (parseFloat(review.rating) || 0),
       0
     );
     const avgRating = (totalRating / reviewsData.length).toFixed(1);
-    setAverageRating(parseFloat(avgRating));
+    setAverageRating(parseFloat(avgRating) || 0);
   };
 
   // Handle rating change
@@ -56,53 +60,43 @@ export default function MainTourist() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (rating === 0 || comment === "") {
+    if (rating === 0 || comment.trim() === "") {
       alert("Please provide both a rating and a comment.");
       return;
     }
 
-    // Get the user data from localStorage
-    const user = JSON.parse(localStorage.getItem("user"));
-
+    const user = JSON.parse(localStorage.getItem("username"));
     if (!user) {
       alert("User not logged in. Please log in to submit a review.");
       return;
     }
 
-    // Prepare the new review payload
     const newReview = {
       rating,
       comment,
       touristLocation,
-      user: user.username, // Pass the username
-      initial: user.username.charAt(0).toUpperCase(), // First letter of the username
+      username: user.username,
+      initial: user.username.charAt(0).toUpperCase(),
+      img: img,
     };
 
     try {
       const response = await axios.post(
-        "https://navizitbackend.onrender.com/test/reviews",
+        "http://localhost:3004/test/reviews",
         newReview
       );
-      const updatedReviews = [response.data, ...reviews]; // Add new review to the beginning of the array
-      setReviews(updatedReviews); // Update reviews state
-      calculateAverageRating(updatedReviews); // Recalculate average rating after adding new review
-      setRating(0); // Reset rating input
-      setComment(""); // Reset comment input
+      console.log("Review Submitted:", response.data);
+      const updatedReviews = [response.data, ...reviews];
+      setReviews(updatedReviews);
+      calculateAverageRating(updatedReviews);
+      setRating(0);
+      setComment("");
     } catch (error) {
       console.error("Error submitting the review:", error);
     }
   };
 
-  // Toggle description expansion
-  const toggleExpanded = () => {
-    setIsExpanded(!isExpanded);
-  };
-
-  // Render the description with "Read More"
-  const renderDescription = () => {
-    const shortText = para.slice(0, 150); // Show first 150 characters
-    return isExpanded ? para : `${shortText}...`;
-  };
+  const toggleExpanded = () => setIsExpanded(!isExpanded);
 
   return (
     <>
@@ -120,22 +114,22 @@ export default function MainTourist() {
             </div>
             <div className="mt-4 md:mt-0 md:w-1/2">
               <div className="bg-gray-100 p-4 rounded-lg shadow">
-                <div className="flex items-center mb-2 h-[30px]">
+                <div className="flex items-center mb-2">
                   <i className="fa-solid fa-location-dot mr-2 text-gray-500"></i>
                   <p className="text-gray-700">{touristLocation}</p>
                 </div>
                 <hr />
-                <div className="flex items-center mb-2 h-[30px]">
+                <div className="flex items-center mb-2">
                   <i className="fa-solid fa-dollar-sign mr-2 text-gray-500"></i>
                   <p className="text-gray-700">Free</p>
                 </div>
                 <hr />
-                <div className="flex items-center mb-2 h-[30px]">
+                <div className="flex items-center mb-2">
                   <i className="fa-solid fa-clock mr-2 text-gray-500"></i>
                   <p className="text-gray-700">24/7</p>
                 </div>
                 <hr />
-                <div className="flex items-center h-[30px]">
+                <div className="flex items-center">
                   <i className="fa-solid fa-earth-americas text-gray-500"></i>
                   <p className="text-gray-700">
                     <a
@@ -153,16 +147,15 @@ export default function MainTourist() {
           {/* Average Rating */}
           <div className="flex flex-col mt-6">
             <div className="flex items-center">
-            <StarRatings
-                    rating={averageRating}
-                    starRatedColor="gold" // Color for filled stars
-                    starEmptyColor="gray" // Color for empty stars
-                    numberOfStars={5}
-                    starDimension="24px" // Star size
-                    starSpacing="3px" // Space between stars
-                    name='rating'
-                />
-
+              <StarRatings
+                rating={averageRating}
+                starRatedColor="gold"
+                starEmptyColor="gray"
+                numberOfStars={5}
+                starDimension="24px"
+                starSpacing="3px"
+                name="rating"
+              />
               <span className="ml-2 text-gray-700">{averageRating} / 5</span>
             </div>
           </div>
@@ -170,7 +163,9 @@ export default function MainTourist() {
           {/* Description */}
           <div className="mt-6">
             <h2 className="text-lg font-semibold">Description</h2>
-            <p className="text-gray-700">{renderDescription()}</p>
+            <p className="text-gray-700">
+              {isExpanded ? para : `${para.slice(0, 150)}...`}
+            </p>
             <button className="text-blue-600" onClick={toggleExpanded}>
               {isExpanded ? "Read Less" : "Read More"}
             </button>
@@ -206,17 +201,17 @@ export default function MainTourist() {
           {/* Reviews Section */}
           <div className="mt-6">
             <h2 className="text-lg font-semibold">Reviews</h2>
-            {reviews.map((review) => (
-              <div
-                key={review._id}
-                className="p-4 mb-4 bg-gray-100 rounded-lg shadow-md"
-              >
-                <div className="flex flex-col mb-2">
+            {reviews.length > 0 ? (
+              reviews.map((review) => (
+                <div
+                  key={review._id}
+                  className="p-4 mb-4 bg-gray-100 rounded-lg shadow-md"
+                >
                   <div className="flex items-center mb-2 font-semibold">
                     <span className="w-10 h-10 bg-purple-600 text-white rounded-full flex items-center justify-center mr-2">
-                      {review.initial} {/* Display the initial */}
+                      {review.initial}
                     </span>
-                    <span>{review.user}</span> {/* Display the username */}
+                    <span>{review.user}</span>
                   </div>
                   <Rating
                     count={5}
@@ -226,10 +221,12 @@ export default function MainTourist() {
                     activeColor="#ffd700"
                     color="#d1d5db"
                   />
+                  <p className="text-gray-700">{review.comment}</p>
                 </div>
-                <p className="text-gray-700">{review.comment}</p>
-              </div>
-            ))}
+              ))
+            ) : (
+              <p>No reviews yet.</p>
+            )}
           </div>
         </section>
       </div>

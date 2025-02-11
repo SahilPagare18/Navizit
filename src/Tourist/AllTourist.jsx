@@ -14,10 +14,11 @@ export default function AllTourist() {
 
                 <ShowTourist 
                  heading="GATEWAY OF INDIA"
+                 
 
                  location="Location: Apollo Bandar, Colaba, Mumbai"
 
-                 img="https://yometro.com/images/places/gateway-of-india.jpg"
+                 img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/gateway-of-india.jpg"
 
                  para=" Explore Mumbai's iconic GATEWAY OF INDIA, an architectural marvel that symbolizes the city's rich history. With its intricate design and stunning seafront location, it's the perfect blend of past and present, offering captivating photo opportunities and a vibrant atmosphere."
 
@@ -35,7 +36,7 @@ export default function AllTourist() {
 
                  location="Location: Gharapuri, Maharashtra"
 
-                 img="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_694433434_20191213110339_20191213110412.png"
+                 img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/elephanta.png"
 
                  para="A short ferry ride from Mumbai, the Elephanta Caves on Elephanta Island showcase 5th-century rock-cut sculptures dedicated to Lord Shiva. Discover intricately carved caves and mythological depictions that highlight India’s ancient art and spirituality."
 
@@ -53,7 +54,7 @@ export default function AllTourist() {
                  
                  location="Location: SK Bole Rd, Prabhadevi, Mumbai"
 
-                 img="https://mumbaitourism.travel/images/places-to-visit/headers/shree-siddhivinayak-temple-mumbai-indian-tourism-entry-fee-timings-holidays-reviews-header.jpg"
+                 img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/SIDDHIVINAYAK%20TEMPLE.jpg"
 
                  para="Find solace and seek blessings at Siddhivinayak Temple, where spirituality meets serenity. This sacred site houses a unique black stone idol of Lord Ganesha, believed to grant wishes and bring peace to its devotees."
 
@@ -70,7 +71,7 @@ export default function AllTourist() {
 
                  location="Location: Bandra Worli Sea Link, Mount Mary, Bandra West, Mumbai"
 
-                 img="https://www.mageba-group.com/latam/data/docs/es/52134/Bandra-Worli-Sea-Link.webp?variant=113748&v=1.1"
+                 img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/Bandra-Worli-Sea-Link.webp"
 
                  para="Embark on a mesmerizing journey across the Bandra-Worli Sea Link, an engineering marvel that seamlessly connects Mumbai's suburbs. As you traverse this cable-stayed bridge, prepare to be captivated by the awe-inspiring views of the Arabian Sea and the city's glittering skyline."
 
@@ -87,7 +88,7 @@ export default function AllTourist() {
 
                  location="Location: The Netaji Subhash Chandra Bose Road"
 
-                 img="https://images.indianexpress.com/2023/05/marine-drive.jpg"
+                 img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/marine-drive.avif"
 
                  para="Mumbai's Marine Drive is an iconic seafront promenade, known for its distinctive crescent shape and glittering cityscape views. Often called the Queen's Necklace when lit up at night, it's a beloved spot for leisurely walks and enjoying breathtaking sunsets."
 
@@ -105,7 +106,7 @@ export default function AllTourist() {
 
                  location="Location: Bandstand Promenade Bandra West, Mumbai"
 
-                 img="https://mumbaitourism.travel/images//tourist-places/bandra-bandstand-mumbai/bandra-bandstand-mumbai-indian-tourism-one-day-city-tour.jpg"
+                 img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/bandra-bandstand-mumbai-indian-tourism-one-day-city-tour.jpg"
 
                  para=" Experience the romance of Mumbai at Bandra Bandstand, a picturesque seaside promenade that overlooks the Arabian Sea. As you take in the breathtaking views, you'll also feel the enchanting charm of Bollywood, making it a perfect spot for leisurely strolls and beautiful sunsets."
 
@@ -121,7 +122,7 @@ export default function AllTourist() {
 
                  location="Location: 159-161, Mahatma Gandhi Road, Kala Ghoda, Fort, Mumbai"
 
-                 img="https://afar.brightspotcdn.com/dims4/default/b84ea12/2147483647/strip/false/crop/1600x800+0+0/resize/1486x743!/quality/90/?url=https%3A%2F%2Fk3-prod-afar-media.s3.us-west-2.amazonaws.com%2Fbrightspot%2F96%2F97%2F9bd0c39e1252c9fe8334cd8e28eb%2Foriginal-6cb07e8ecb947187f0bffa00b167c7ae.jpg"
+                 img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/CHHATRAPATI%20SHIVAJI%20MAHARAJ%20VASTU%20SANGHRALAYA.jpg"
 
                  para="Formerly known as the Prince of Wales Museum, this Mumbai institution is a treasure trove of art and history. Its impressive collection includes sculptures, decorative arts, and artifacts from India and beyond. "
 
@@ -138,7 +139,7 @@ export default function AllTourist() {
 
                  location="Location: Nehru Centre, Dr Annie Besant Rd, Lotus Colony, Worli"
 
-                 img="https://i.pinimg.com/736x/5a/44/55/5a4455988ea1a92dc30ca5a1bb0030f2.jpg"
+                 img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/NEHRU%20PLANETARIUM.jpg"
 
                  para="Explore the wonders of the cosmos at the Nehru Planetarium in Mumbai. This interactive space science center offers captivating astronomy shows, celestial observations, and educational programs. "
 
@@ -155,7 +156,7 @@ export default function AllTourist() {
 
                  location="Location: Nehru Centre, Dr Annie Besant Rd, Lotus Colony, Worli"
 
-                 img="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/e0/57/c8/inside.jpg?w=1200&h=-1&s=1"
+                 img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/NEHRU%20CENTRE.jpg"
 
                  para="The Nehru Center in Mumbai is a cultural hub dedicated to promoting art, science, and culture. Named after India's first Prime Minister, Jawaharlal Nehru, it hosts art exhibitions, cultural performances, educational events, and lectures.  "
 
@@ -171,7 +172,7 @@ export default function AllTourist() {
 
                  location="Location: Netaji Subhash Chandra Bose Road, Marine Drive, near Charni Road "
 
-                 img="https://mumbaitourism.travel/images/places-to-visit/headers/taraporevala-aquarium-mumbai-indian-tourism-entry-fee-timings-holidays-reviews-header.jpg"
+                 img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/TARAPOREVALA%20AQUARIUMjpg.jpg"
 
                  para=" Dive into the wonders of marine life at Mumbai's Taraporewala Aquarium. Home to a diverse collection of aquatic species, including colorful fish, sharks, and turtles, this aquarium offers an educational and visually captivating experience."
 
@@ -188,7 +189,7 @@ export default function AllTourist() {
 
                  location="Location: Dr Baba Saheb Ambedkar Rd, Byculla East, Mumbai"
 
-                 img="https://ak-d.tripcdn.com/images/100v1f000001h1b8i1325.jpg?proc=source%2Ftrip"
+                 img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/DR.BHAU%20DAJI%20LAD%20MUSEUM.jpg"
 
                  para=" Discover Mumbai's heritage at this museum, housed in a beautifully restored 19th-century building. Explore a fascinating collection of art, artifacts, and exhibits that highlight the city's history and culture. "
 
@@ -205,7 +206,7 @@ export default function AllTourist() {
 
                  location="Location: Mani Bhavan, 19, Laburnum Rd, Babulnath, Gamdevi, Mumbai"
 
-                 img="https://memumbai.com/wp-content/uploads/2019/10/mani-bhavan.jpg"
+                 img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/mani-bhavan.jpg"
 
                  para="Immerse yourself in history at Mani Bhavan, once Mahatma Gandhi's residence and now a captivating museum. Walk in the footsteps of the Mahatma and explore the exhibits and photographs that offer profound insights into his life and the Indian freedom struggle."
 
@@ -214,7 +215,6 @@ export default function AllTourist() {
                  website="https://www.gandhi-manibhavan.org/"
 
                  webname="Mani Bhavan"
-
                  />
                  
                  <ShowTourist 
@@ -222,7 +222,7 @@ export default function AllTourist() {
 
                  location="Location: Railway Station, 91A, Lalbaug Flyover, near Byculla, Byculla East, Byculla, Mumbai"
 
-                 img="https://www.saveranibagh.org/imagesHomePage/2.jpg"
+                 img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/RANI%20BAUG.jpg"
 
                  para=" Step into tranquility at Rani Baug, often called Victoria Gardens, nestled in the heart of bustling Mumbai. Dating back to the 1860s, this historic botanical garden is a haven of greenery and peace. "
 
@@ -239,7 +239,7 @@ export default function AllTourist() {
 
                  location="Location: Ridge Rd, Simla Nagar, Malabar Hill, Mumbai"
 
-                 img="https://www.mumbailive.com/images/media/images/hanging_garden_1695731117497.jpg?bg=292712&crop=960%2C538.9473684210526%2C0%2Cnull&fit=crop&fitToScale=w%2C1368%2C768&fm=webp&h=768&height=639&w=1368&width=960"
+                 img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/BOOT%20HOUSE.webp"
 
                  para=" The Boot House, located in Mumbai, is a unique architectural marvel shaped like a giant boot. Originally built as a tribute to a British officer's love for his wife, it now houses a shoe store."
 
@@ -256,7 +256,7 @@ export default function AllTourist() {
 
                  location="Location: Film City Rd, Film City Complex, Aarey Colony, Goregaon, Mumbai"
 
-                 img="https://images.deccanherald.com/deccanherald%2Fimport%2Fsites%2Fdh%2Ffiles%2Farticleimages%2F2020%2F12%2F05%2Fgalleryset31-923719-1607160018.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100"
+                 img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/FILM%20CITY.avif"
 
                  para="Explore the heart of India's film industry at Mumbai's Film City. This sprawling studio complex is where Bollywood magic comes to life. Guided tours offer a glimpse behind the scenes, where you might spot film sets, stars, and crew at work. "
 
@@ -273,7 +273,7 @@ export default function AllTourist() {
 
                  location="Location: Chowpatty, Girgaon, Mumbai"
 
-                 img="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202204/FQjZ2xGakAAoOtl_1200x768.jpeg?VersionId=bEHsa2S9IzX8maWYocL0yJk9hVvJZ2IC"
+                 img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/CHOWPATTY%20VIEW%20DECK.jpeg"
 
                  para=" Experience breathtaking views of Mumbai's Girgaum Chowpatty beach from the Chowpatty View Deck. This elevated vantage point offers a captivating perspective of the Arabian Sea and the lively shoreline. "
 
@@ -290,7 +290,7 @@ export default function AllTourist() {
 
                  location="Location: Keshavrao Khadye Marg, Royal Western India Turf Club, Mahalakshmi, Mumbai"
 
-                 img="https://i.pinimg.com/originals/b2/6c/46/b26c46ad3366ab4d77fbdd3b7b2d32df.jpg"
+                 img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/MAHALAXMI%20RACE%20TRACK.jpg"
 
                  para=" Experience the excitement of horse racing in Mumbai at the prestigious Mahalaxmi Race Course. Set against lush green surroundings, it offers thrilling equestrian action and a vibrant social atmosphere."
 

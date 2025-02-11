@@ -2109,19 +2109,9 @@ const restaurants = [
                 location: "Oshiwara",
                 description: "Japanese restaurant offering a variety of vegetarian sushi options."
             }
-        
-        
-                
-              
-              
-          
-          
-      
-      
-      
-    
+
   ];
-  
+ 
   const [filterType, setFilterType] = useState("");
   const [filterCuisine, setFilterCuisine] = useState("");
   const [filterPriceRange, setFilterPriceRange] = useState("");
