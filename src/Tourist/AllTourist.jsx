@@ -54,7 +54,7 @@ export default function AllTourist() {
                  
                  location="Location: SK Bole Rd, Prabhadevi, Mumbai"
 
-                 category="Religious site"
+                 category="Category:Religious site"
 
                  img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/SIDDHIVINAYAK%20TEMPLE.jpg"
 
@@ -314,7 +314,7 @@ export default function AllTourist() {
 
                  location="Location:Mumba Devi Mandir, Zaveri Bazaar, Mumbai"
 
-                 img="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/d2/87/e3/temple-tower.jpg?w=1200&h=-1&s=1"
+                 img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/mumba%20devi%20mandir.jpg"
 
                  para="The Mumba Devi Temple, located in Zaveri Bazaar, Mumbai, is dedicated to Goddess Mumba, the city's patron deity. It is one of the oldest temples in Mumbai, known for its intricate architecture and religious significance to the city's residents."
 
@@ -328,7 +328,186 @@ export default function AllTourist() {
 
                  />
 
+                 <ShowTourist 
+                 heading="Mahalakshmi Temple"
+
+                 location="Location:Bhulabhai Desai Marg, Mahalaxmi West, Cumballa Hill, Mumbai"
+
+                 img="https://image3.mouthshut.com/images/Restaurant/Photo/-48117_68312.jpg"
+
+                 para="The Mahalakshmi Temple, located in Mahalakshmi, Mumbai, is dedicated to Goddess Mahalakshmi, the goddess of wealth, fortune, and prosperity. It is one of the most prominent temples in Mumbai, known for its stunning architecture and religious significance to the city's residents."
+
+                 link="https://www.google.com/maps/place/Shri+Mahalakshmi+Devi+Temple,+Mumbai/@18.9773405,72.8065601,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7ce6ce5383ed1:0xe20c7a512463dd62!8m2!3d18.9773405!4d72.8065601!16zL20vMDQyeTRi?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
+
+                 category="Category:Religious site"
                  
+                 website=""
+
+                 webname=""
+
+                 />
+
+                 <ShowTourist 
+                 heading="ISKCON TEMPLE"
+
+                 location="Location:Hare Krishna Land, Sri Mukteshwar Devalaya Rd,Juhu, Mumbai"
+
+                 img="https://media.safarway.com/content/cc828ce8-c528-4d97-8cbd-e267d432e55c_sm.jpg"
+
+                 para="The ISKCON Temple, located in Juhu, Mumbai, is dedicated to Lord Krishna and is a major spiritual center. It is one of the most famous temples in Mumbai, known for its vibrant atmosphere, beautiful architecture, and religious significance to the city's devotees."
+
+                 link="https://www.google.com/maps/place/ISKCON+Temple,+Juhu,+Mumbai/@19.113016,72.8240011,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7c9e83c34362f:0x6d7c69d4f830e48!8m2!3d19.113016!4d72.826576!16s%2Fg%2F1td08dd5?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
+
+                 category="Category:Religious site"
+                 
+                 website=""
+
+                 webname=""
+
+                 />
+
+                 <ShowTourist 
+                 heading="Babulnath temple"
+
+                 location="Location: Babulnath Rd,Babulnath,Khareghat Colony Gamdevi, Mumbai"
+
+                 img="https://thetempleguru.com/wp-content/uploads/2023/12/Babulnath-Temple-20.jpg"
+
+                 para="The Babulnath Temple, located in Girgaon, Mumbai, is dedicated to Lord Shiva and is an important religious site. It is one of the oldest temples in Mumbai, known for its serene atmosphere, stunning architecture, and religious significance to the city's devotees."
+
+                 link="https://www.google.com/maps/place/ISKCON+Temple,+Juhu,+Mumbai/@19.113016,72.8240011,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7c9e83c34362f:0x6d7c69d4f830e48!8m2!3d19.113016!4d72.826576!16s%2Fg%2F1td08dd5?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
+
+                 category="Category:Religious site"
+                 
+                 website=""
+
+                 webname=""
+
+                 />
+
+
+
+
+                 <ShowTourist 
+                 heading="Shri Swaminarayan Mandir"
+
+                 location="Location: Dadar East, Dadar, Mumbai"
+
+                 img="https://www.americamybeautiful.com/wp-content/uploads/2019/11/BAPS-Shri-Swaminarayan-Mandir--scaled.jpg"
+
+                 para="The Shri Swaminarayan Mandir, located in Dadar, Mumbai, is dedicated to Lord Swaminarayan and is an important religious site. It is one of the most revered temples in Mumbai, known for its serene atmosphere, stunning architecture, and religious significance to the city's devotees."
+
+                 link="https://www.google.com/maps/place/BAPS+Shri+Swaminarayan+Mandir,+Mumbai/@19.0018527,72.8056703,14z/data=!4m10!1m2!2m1!1sShri+Swaminarayan+Mandir+dadar!3m6!1s0x3be7cedc138e7e5f:0x916b68999fb77b7c!8m2!3d19.0177255!4d72.8443667!15sCh5TaHJpIFN3YW1pbmFyYXlhbiBNYW5kaXIgZGFkYXJaICIec2hyaSBzd2FtaW5hcmF5YW4gbWFuZGlyIGRhZGFykgEMaGluZHVfdGVtcGxl4AEA!16s%2Fg%2F1tf063xb?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
+
+                 category="Category:Religious site"
+                 
+                 website=""
+
+                 webname=""
+
+                 />
+
+                 <ShowTourist 
+                 heading="Hanuman Mandir"
+
+                 location="Location: Dadar East, Dadar, Mumbai"
+
+                 img="https://c8.alamy.com/comp/ET210R/place-of-worship-shree-rokadiya-hanuman-or-monkey-god-temple-princess-ET210R.jpg"
+
+                 para="The Hanuman Mandir, located near Marine Lines, Mumbai, is dedicated to Lord Hanuman and is an important religious site. It is one of the most revered temples in Mumbai, known for its serene atmosphere, stunning architecture, and religious significance to the city's devotees."
+
+                 link="https://www.google.com/maps/place/Shree+rokadiya+Hanuman+Mandir/@19.0017968,72.7438677,12z/data=!3m1!5s0x3be7ce20551c7ec9:0x42589a7966ff9ba7!4m10!1m2!2m1!1sHanuman+Mandirnear+marine+lines+mumbai+!3m6!1s0x3be7ce21ab27d9f9:0x6b33c7db42cce22a!8m2!3d18.9454343!4d72.8306611!15sCidIYW51bWFuIE1hbmRpciBOZWFyIG1hcmluZSBsaW5lcyBtdW1iYWmSAQxoaW5kdV90ZW1wbGXgAQA!16s%2Fg%2F12q4vc5g2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
+
+                 category="Category:Religious site"
+                 
+                 website=""
+
+                 webname=""
+
+                 />
+
+
+
+
+                 <ShowTourist 
+                 heading="Shiv Temple"
+
+                 location="Location:Ambernath Prakash Nagar Shiv Mandir road, 421, 501 East, Ambernath"
+
+                 img="https://www.sanskritimagazine.com/wp-content/uploads/2015/07/p1010177.jpg"
+
+                 para="The Shiv Mandir, located in Ambarnath, Mumbai, is dedicated to Lord Shiva and is an important religious site. It is one of the most revered temples in Mumbai, known for its serene atmosphere, stunning architecture, and religious significance to the city's devotees."
+
+                 link="https://www.google.com/maps/place/Shree+rokadiya+Hanuman+Mandir/@19.0017968,72.7438677,12z/data=!3m1!5s0x3be7ce20551c7ec9:0x42589a7966ff9ba7!4m10!1m2!2m1!1sHanuman+Mandirnear+marine+lines+mumbai+!3m6!1s0x3be7ce21ab27d9f9:0x6b33c7db42cce22a!8m2!3d18.9454343!4d72.8306611!15sCidIYW51bWFuIE1hbmRpciBOZWFyIG1hcmluZSBsaW5lcyBtdW1iYWmSAQxoaW5kdV90ZW1wbGXgAQA!16s%2Fg%2F12q4vc5g2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
+
+                 category="Category:Religious site"
+                 
+                 website=""
+
+                 webname=""
+
+                 />
+
+                <ShowTourist 
+                 heading=""
+
+                 location="Location:Mount Mary Rd,near Shanti Avedna Sadan,Mount Mary,Bandra West, Mumbai"
+
+                 img="https://i.pinimg.com/originals/c3/03/cc/c303cc788aed4e35fae08e737fc1a41b.jpg"
+
+                 para="The Mount Mary Church, located in Bandra, Mumbai, is dedicated to Mother Mary and is an important religious site. It is one of the most revered churches in Mumbai, known for its serene atmosphere, stunning architecture, and religious significance to the city's devotees."
+
+                 link="https://www.google.com/maps/place/Basilica+of+Our+Lady+of+the+Mount+(Mount+St+Mary+Church)/@19.0462495,72.8186506,16z/data=!4m10!1m2!2m1!1sMount+Mary+Church!3m6!1s0x3be7c9409a609d75:0xd0a71c45e7557bfa!8m2!3d19.0465581!4d72.8224747!15sChFNb3VudCBNYXJ5IENodXJjaFoTIhFtb3VudCBtYXJ5IGNodXJjaJIBCGJhc2lsaWNh4AEA!16zL20vMDJ5NGJz?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
+
+                 category="Category:Religious site"
+                 
+                 website=""
+
+                 webname=""
+
+                 />
+
+                 
+                <ShowTourist 
+                 heading="Haji Ali Dargah"
+
+                 location="Location:Dargah Rd, Haji Ali, Mumbai"
+
+                 img="https://live.staticflickr.com/8475/8376760392_b642b442af_b.jpg"
+
+                 para="The Haji Ali Dargah, located in Worli, Mumbai, is dedicated to Pir Haji Ali Shah Bukhari and is an important religious site. It is one of the most revered dargahs in Mumbai, known for its serene atmosphere, stunning architecture, and religious significance to the city's devotees."
+
+                 link="https://www.google.com/maps/place/Haji+Ali+Dargah,+Dargah+Rd,+Haji+Ali,+Mumbai,+Maharashtra/@18.9827097,72.806298,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7ce7e9373f579:0x85949a815a35b155!8m2!3d18.9828192!4d72.8088962!16s%2Fg%2F11hc7rgzfb?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
+
+                 category="Category:Religious site"
+                 
+                 website=""
+
+                 webname=""
+
+                 />
+
+                <ShowTourist 
+                 heading="Walkeshwar Temple"
+
+                 location="Location:Banganga Cross Ln, Teen Batti, Malabar Hill, Mumbai"
+
+                 img="https://www.placestovisitindia.in/wp-content/uploads/2017/06/walkeshwar-temple-mumbai.jpg"
+
+                 para="The Walkeshwar Temple, located in Malabar Hill, Mumbai, is dedicated to Lord Shiva and is an important religious site. It is one of the most revered temples in Mumbai, known for its serene atmosphere, stunning architecture, and religious significance to the city's devotees."
+
+                 link="https://www.google.com/maps/place/Shri+Walkeshwar+Temple,+Mumbai/@18.9456144,72.7906177,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7cdf9899a8b5b:0xcbbe7589ec985cdc!8m2!3d18.9456144!4d72.7931926!16zL20vMDViZDRs?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
+
+                 category="Category:Religious site"
+                 
+                 website=""
+
+                 webname=""
+
+                 />
+
+
+
                  <AllFooter/>
             </div>
         </>
