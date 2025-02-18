@@ -7,7 +7,7 @@ import NavTourist from "./NavTourist";
 
 export default function MainTourist() {
   const location = useLocation();
-  const { heading, img, para, location: touristLocation } = location.state;
+  const { heading, category,img, para, location: touristLocation } = location.state;
 
   const [reviews, setReviews] = useState([]);
   const [rating, setRating] = useState(0);
@@ -18,13 +18,10 @@ export default function MainTourist() {
   // Fetch reviews from the backend on component mount
   useEffect(() => {
     const fetchReviews = async () => {
-     
       try {
-        const encodedLocation = encodeURIComponent(touristLocation);
         const response = await axios.get(
-  `http://localhost:3004/test/reviews/${encodedLocation}`
-);
-
+         ` https://navizit1.onrender.com/test/reviews/${touristLocation}`
+        );
         console.log("Fetched Reviews:", response.data);
         setReviews(response.data);
         calculateAverageRating(response.data);
@@ -65,13 +62,14 @@ export default function MainTourist() {
       return;
     }
 
-    const user = JSON.parse(localStorage.getItem("username"));
+    const user = JSON.parse(localStorage.getItem("user"));
     if (!user) {
       alert("User not logged in. Please log in to submit a review.");
       return;
     }
 
     const newReview = {
+      heading,  // ✅ Pass heading
       rating,
       comment,
       touristLocation,
@@ -82,7 +80,7 @@ export default function MainTourist() {
 
     try {
       const response = await axios.post(
-        "http://localhost:3004/test/reviews",
+        "https://navizit1.onrender.com/test/reviews",
         newReview
       );
       console.log("Review Submitted:", response.data);
@@ -171,6 +169,11 @@ export default function MainTourist() {
             </button>
           </div>
 
+          <div className="mt-4">
+          <p className="text-lg font-semibold">{category}</p>
+          </div>
+
+
           {/* Review Form */}
           <form onSubmit={handleSubmit} className="mt-6">
             <h2 className="text-lg font-semibold">Leave a Review</h2>
@@ -211,7 +214,7 @@ export default function MainTourist() {
                     <span className="w-10 h-10 bg-purple-600 text-white rounded-full flex items-center justify-center mr-2">
                       {review.initial}
                     </span>
-                    <span>{review.user}</span>
+                    <span>{review.username}</span>
                   </div>
                   <Rating
                     count={5}

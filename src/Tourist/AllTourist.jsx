@@ -54,6 +54,8 @@ export default function AllTourist() {
                  
                  location="Location: SK Bole Rd, Prabhadevi, Mumbai"
 
+                 category="Religious site"
+
                  img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/SIDDHIVINAYAK%20TEMPLE.jpg"
 
                  para="Find solace and seek blessings at Siddhivinayak Temple, where spirituality meets serenity. This sacred site houses a unique black stone idol of Lord Ganesha, believed to grant wishes and bring peace to its devotees."
@@ -215,6 +217,7 @@ export default function AllTourist() {
                  website="https://www.gandhi-manibhavan.org/"
 
                  webname="Mani Bhavan"
+
                  />
                  
                  <ShowTourist 
@@ -302,6 +305,30 @@ export default function AllTourist() {
 
                  />
 
+                 {/* entering my data from here */}
+
+                 {/* Religious and cultural sites */}
+
+                 <ShowTourist 
+                 heading="Mumba Devi Temple"
+
+                 location="Location:Mumba Devi Mandir, Zaveri Bazaar, Mumbai"
+
+                 img="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/d2/87/e3/temple-tower.jpg?w=1200&h=-1&s=1"
+
+                 para="The Mumba Devi Temple, located in Zaveri Bazaar, Mumbai, is dedicated to Goddess Mumba, the city's patron deity. It is one of the oldest temples in Mumbai, known for its intricate architecture and religious significance to the city's residents."
+
+                 link="https://www.google.com/maps/place/Shri+Mumbadevi+Temple,+Mumbai/@18.9519401,72.8281687,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7cfecc763321b:0x9853129a582225b2!8m2!3d18.9519401!4d72.8307436!16zL20vMDN3aGpk?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
+
+                 category="Category:Religious site"
+                 
+                 website=""
+
+                 webname="Mumba Devi Temple"
+
+                 />
+
+                 
                  <AllFooter/>
             </div>
         </>

@@ -1,10 +1,10 @@
 import { useNavigate } from "react-router-dom";
 
-export default function ShowTourist({ heading, location, img, para, link, website, webname }) {
+export default function ShowTourist({ heading, location, img,category, para, link, website, webname }) {
     const navigate = useNavigate(); // For navigation
 
     const handleImageClick = () => {
-        navigate('/MainTourist', { state: { heading, img, para, location, website, webname } }); // Pass state with navigation
+        navigate('/MainTourist', { state: { heading,img,category,para, location, website, webname } }); // Pass state with navigation
     };
 
     return (
@@ -29,6 +29,9 @@ export default function ShowTourist({ heading, location, img, para, link, websit
                     <div className="w-full md:w-1/2">
                         <p className="leading-relaxed text-gray-700 font-desc text-justify text-2xl font-medium">
                             {para}
+                        </p>
+                        <p className="leading-relaxed text-gray-700 font-desc text-justify text-2xl font-medium">
+                            {category}
                         </p>
                         <a href={link}>
                             <p className="text-blue-600 text-[20px] ml-2 font-semibold mt-8 cursor-pointer font-desc transition-all duration-300 ease-in-out transform hover:scale-105">

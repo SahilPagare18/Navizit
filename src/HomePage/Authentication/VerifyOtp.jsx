@@ -20,7 +20,7 @@ const VerifyOTP = () => {
 
   const handleVerify = async () => {
     try {
-      const response = await fetch('https://navizitbackend.onrender.com/api/verify-otp', {
+      const response = await fetch('https://navizit1.onrender.com/api/verify-otp', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

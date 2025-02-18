@@ -16,6 +16,7 @@ import PreHome from './HomePage/PreHome';
 import MainSignup from './HomePage/Authentication/MainSignup';
 import MainLogin from './HomePage/Authentication/MainLogin';
 import VerifyOTP from './HomePage/Authentication/VerifyOtp';
+import Recommendation from './Recommendations/Recommendation';
 
 export default function App() {
   return (
@@ -38,7 +39,7 @@ export default function App() {
         <Route path="/localnews" element={<NewsSection/>} />
         <Route path="/emergency" element={<EmergencyServices/>} />
         <Route path="/aroundyou" element={<HotelRestaurant/>} />
-
+        <Route path='/recommend' element={<Recommendation/>} />
 
       </Routes>
       

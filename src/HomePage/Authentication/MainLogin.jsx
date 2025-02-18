@@ -32,7 +32,7 @@ const MainLogin = () => {
       setErrors(formErrors);
     } else {
       try {
-        const response = await fetch('https://navizitbackend.onrender.com/api/login', {
+        const response = await fetch('https://navizit1.onrender.com/api/login', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
