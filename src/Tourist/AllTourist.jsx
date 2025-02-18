@@ -26,6 +26,8 @@ export default function AllTourist() {
                  
                  website=""
 
+                 category="Historical and Heritage sites"
+
                  webname="Gateway Of India"
 
                 
@@ -45,6 +47,8 @@ export default function AllTourist() {
                  website="https://elephanta.co.in/"
 
                  webname="Elephanta Caves"
+
+                 category="Historical and heritage sites"
 
 
                  />
@@ -129,6 +133,8 @@ export default function AllTourist() {
                  para="Formerly known as the Prince of Wales Museum, this Mumbai institution is a treasure trove of art and history. Its impressive collection includes sculptures, decorative arts, and artifacts from India and beyond. "
 
                  link="https://www.google.com/maps/place/Chhatrapati+Shivaji+Maharaj+Vastu+Sangrahalaya/@18.9266744,72.8319741,19z/data=!4m15!1m8!3m7!1s0x3be7d1c3e95e82e7:0x4def27e4efa8253e!2s159-161,+Mahatma+Gandhi+Road,+Kala+Ghoda,+Fort,+Mumbai,+Maharashtra+400023!3b1!8m2!3d18.9266522!4d72.832459!16s%2Fg%2F11c45z791p!3m5!1s0x3be7d1c3eaf8b127:0x44e72610553e9253!8m2!3d18.9269015!4d72.8326916!16zL20vMDIweHFq?entry=ttu"
+
+                 category="Historical and heritage sites"
                  
                  website="https://csmvs.in/"
 
@@ -213,6 +219,8 @@ export default function AllTourist() {
                  para="Immerse yourself in history at Mani Bhavan, once Mahatma Gandhi's residence and now a captivating museum. Walk in the footsteps of the Mahatma and explore the exhibits and photographs that offer profound insights into his life and the Indian freedom struggle."
 
                  link="https://www.google.com/maps/place/Mani+Bhavan+Gandhi+Sangrahalaya/@18.9597717,72.8089949,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7ce0c69115555:0xc0b175f791f839fd!8m2!3d18.9597666!4d72.8115698!16zL20vMGI4M3Qx?entry=ttuu"
+                 
+                 category="Historical and heritage sites"
                  
                  website="https://www.gandhi-manibhavan.org/"
 
@@ -320,7 +328,7 @@ export default function AllTourist() {
 
                  link="https://www.google.com/maps/place/Shri+Mumbadevi+Temple,+Mumbai/@18.9519401,72.8281687,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7cfecc763321b:0x9853129a582225b2!8m2!3d18.9519401!4d72.8307436!16zL20vMDN3aGpk?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
 
-                 category="Category:Religious site"
+                 category="Religious site"
                  
                  website=""
 
@@ -331,15 +339,15 @@ export default function AllTourist() {
                  <ShowTourist 
                  heading="Mahalakshmi Temple"
 
-                 location="Location:Bhulabhai Desai Marg, Mahalaxmi West, Cumballa Hill, Mumbai"
+                 location="Location:Bhulabhai Desai Marg, Mahalaxmi West,Mumbai"
 
-                 img="https://image3.mouthshut.com/images/Restaurant/Photo/-48117_68312.jpg"
+                 img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/mahalaxmitemple.jpg"
 
                  para="The Mahalakshmi Temple, located in Mahalakshmi, Mumbai, is dedicated to Goddess Mahalakshmi, the goddess of wealth, fortune, and prosperity. It is one of the most prominent temples in Mumbai, known for its stunning architecture and religious significance to the city's residents."
 
                  link="https://www.google.com/maps/place/Shri+Mahalakshmi+Devi+Temple,+Mumbai/@18.9773405,72.8065601,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7ce6ce5383ed1:0xe20c7a512463dd62!8m2!3d18.9773405!4d72.8065601!16zL20vMDQyeTRi?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
 
-                 category="Category:Religious site"
+                 category="Religious site"
                  
                  website=""
 
@@ -352,13 +360,13 @@ export default function AllTourist() {
 
                  location="Location:Hare Krishna Land, Sri Mukteshwar Devalaya Rd,Juhu, Mumbai"
 
-                 img="https://media.safarway.com/content/cc828ce8-c528-4d97-8cbd-e267d432e55c_sm.jpg"
+                 img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/ISKCON%20TEMPLE(JUHU).jpg"
 
                  para="The ISKCON Temple, located in Juhu, Mumbai, is dedicated to Lord Krishna and is a major spiritual center. It is one of the most famous temples in Mumbai, known for its vibrant atmosphere, beautiful architecture, and religious significance to the city's devotees."
 
                  link="https://www.google.com/maps/place/ISKCON+Temple,+Juhu,+Mumbai/@19.113016,72.8240011,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7c9e83c34362f:0x6d7c69d4f830e48!8m2!3d19.113016!4d72.826576!16s%2Fg%2F1td08dd5?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
 
-                 category="Category:Religious site"
+                 category="Religious site"
                  
                  website=""
 
@@ -371,13 +379,13 @@ export default function AllTourist() {
 
                  location="Location: Babulnath Rd,Babulnath,Khareghat Colony Gamdevi, Mumbai"
 
-                 img="https://thetempleguru.com/wp-content/uploads/2023/12/Babulnath-Temple-20.jpg"
+                 img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/Babulnath-Temple-20.jpg"
 
                  para="The Babulnath Temple, located in Girgaon, Mumbai, is dedicated to Lord Shiva and is an important religious site. It is one of the oldest temples in Mumbai, known for its serene atmosphere, stunning architecture, and religious significance to the city's devotees."
 
                  link="https://www.google.com/maps/place/ISKCON+Temple,+Juhu,+Mumbai/@19.113016,72.8240011,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7c9e83c34362f:0x6d7c69d4f830e48!8m2!3d19.113016!4d72.826576!16s%2Fg%2F1td08dd5?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
 
-                 category="Category:Religious site"
+                 category="Religious site"
                  
                  website=""
 
@@ -393,13 +401,13 @@ export default function AllTourist() {
 
                  location="Location: Dadar East, Dadar, Mumbai"
 
-                 img="https://www.americamybeautiful.com/wp-content/uploads/2019/11/BAPS-Shri-Swaminarayan-Mandir--scaled.jpg"
+                 img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/BAPS-Shri-Swaminarayan-Mandir--scaled.jpg"
 
                  para="The Shri Swaminarayan Mandir, located in Dadar, Mumbai, is dedicated to Lord Swaminarayan and is an important religious site. It is one of the most revered temples in Mumbai, known for its serene atmosphere, stunning architecture, and religious significance to the city's devotees."
 
                  link="https://www.google.com/maps/place/BAPS+Shri+Swaminarayan+Mandir,+Mumbai/@19.0018527,72.8056703,14z/data=!4m10!1m2!2m1!1sShri+Swaminarayan+Mandir+dadar!3m6!1s0x3be7cedc138e7e5f:0x916b68999fb77b7c!8m2!3d19.0177255!4d72.8443667!15sCh5TaHJpIFN3YW1pbmFyYXlhbiBNYW5kaXIgZGFkYXJaICIec2hyaSBzd2FtaW5hcmF5YW4gbWFuZGlyIGRhZGFykgEMaGluZHVfdGVtcGxl4AEA!16s%2Fg%2F1tf063xb?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
 
-                 category="Category:Religious site"
+                 category="Religious site"
                  
                  website=""
 
@@ -412,13 +420,13 @@ export default function AllTourist() {
 
                  location="Location: Dadar East, Dadar, Mumbai"
 
-                 img="https://c8.alamy.com/comp/ET210R/place-of-worship-shree-rokadiya-hanuman-or-monkey-god-temple-princess-ET210R.jpg"
+                 img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/hanuman%20mandir.jpg"
 
                  para="The Hanuman Mandir, located near Marine Lines, Mumbai, is dedicated to Lord Hanuman and is an important religious site. It is one of the most revered temples in Mumbai, known for its serene atmosphere, stunning architecture, and religious significance to the city's devotees."
 
                  link="https://www.google.com/maps/place/Shree+rokadiya+Hanuman+Mandir/@19.0017968,72.7438677,12z/data=!3m1!5s0x3be7ce20551c7ec9:0x42589a7966ff9ba7!4m10!1m2!2m1!1sHanuman+Mandirnear+marine+lines+mumbai+!3m6!1s0x3be7ce21ab27d9f9:0x6b33c7db42cce22a!8m2!3d18.9454343!4d72.8306611!15sCidIYW51bWFuIE1hbmRpciBOZWFyIG1hcmluZSBsaW5lcyBtdW1iYWmSAQxoaW5kdV90ZW1wbGXgAQA!16s%2Fg%2F12q4vc5g2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
 
-                 category="Category:Religious site"
+                 category="Religious site"
                  
                  website=""
 
@@ -434,13 +442,13 @@ export default function AllTourist() {
 
                  location="Location:Ambernath Prakash Nagar Shiv Mandir road, 421, 501 East, Ambernath"
 
-                 img="https://www.sanskritimagazine.com/wp-content/uploads/2015/07/p1010177.jpg"
+                 img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/Ambernath%20shiv%20mandir.jpg"
 
                  para="The Shiv Mandir, located in Ambarnath, Mumbai, is dedicated to Lord Shiva and is an important religious site. It is one of the most revered temples in Mumbai, known for its serene atmosphere, stunning architecture, and religious significance to the city's devotees."
 
                  link="https://www.google.com/maps/place/Shree+rokadiya+Hanuman+Mandir/@19.0017968,72.7438677,12z/data=!3m1!5s0x3be7ce20551c7ec9:0x42589a7966ff9ba7!4m10!1m2!2m1!1sHanuman+Mandirnear+marine+lines+mumbai+!3m6!1s0x3be7ce21ab27d9f9:0x6b33c7db42cce22a!8m2!3d18.9454343!4d72.8306611!15sCidIYW51bWFuIE1hbmRpciBOZWFyIG1hcmluZSBsaW5lcyBtdW1iYWmSAQxoaW5kdV90ZW1wbGXgAQA!16s%2Fg%2F12q4vc5g2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
 
-                 category="Category:Religious site"
+                 category="Religious site"
                  
                  website=""
 
@@ -449,17 +457,17 @@ export default function AllTourist() {
                  />
 
                 <ShowTourist 
-                 heading=""
+                 heading="Mount Mary Church"
 
                  location="Location:Mount Mary Rd,near Shanti Avedna Sadan,Mount Mary,Bandra West, Mumbai"
 
-                 img="https://i.pinimg.com/originals/c3/03/cc/c303cc788aed4e35fae08e737fc1a41b.jpg"
+                 img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/mountmerry%20church.jpg"
 
                  para="The Mount Mary Church, located in Bandra, Mumbai, is dedicated to Mother Mary and is an important religious site. It is one of the most revered churches in Mumbai, known for its serene atmosphere, stunning architecture, and religious significance to the city's devotees."
 
                  link="https://www.google.com/maps/place/Basilica+of+Our+Lady+of+the+Mount+(Mount+St+Mary+Church)/@19.0462495,72.8186506,16z/data=!4m10!1m2!2m1!1sMount+Mary+Church!3m6!1s0x3be7c9409a609d75:0xd0a71c45e7557bfa!8m2!3d19.0465581!4d72.8224747!15sChFNb3VudCBNYXJ5IENodXJjaFoTIhFtb3VudCBtYXJ5IGNodXJjaJIBCGJhc2lsaWNh4AEA!16zL20vMDJ5NGJz?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
 
-                 category="Category:Religious site"
+                 category="Religious site"
                  
                  website=""
 
@@ -473,13 +481,13 @@ export default function AllTourist() {
 
                  location="Location:Dargah Rd, Haji Ali, Mumbai"
 
-                 img="https://live.staticflickr.com/8475/8376760392_b642b442af_b.jpg"
+                 img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/hajialidargah.jpg"
 
                  para="The Haji Ali Dargah, located in Worli, Mumbai, is dedicated to Pir Haji Ali Shah Bukhari and is an important religious site. It is one of the most revered dargahs in Mumbai, known for its serene atmosphere, stunning architecture, and religious significance to the city's devotees."
 
                  link="https://www.google.com/maps/place/Haji+Ali+Dargah,+Dargah+Rd,+Haji+Ali,+Mumbai,+Maharashtra/@18.9827097,72.806298,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7ce7e9373f579:0x85949a815a35b155!8m2!3d18.9828192!4d72.8088962!16s%2Fg%2F11hc7rgzfb?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
 
-                 category="Category:Religious site"
+                 category="Religious site"
                  
                  website=""
 
@@ -492,13 +500,13 @@ export default function AllTourist() {
 
                  location="Location:Banganga Cross Ln, Teen Batti, Malabar Hill, Mumbai"
 
-                 img="https://www.placestovisitindia.in/wp-content/uploads/2017/06/walkeshwar-temple-mumbai.jpg"
+                 img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/walkeshwar-temple-mumbai.jpg"
 
                  para="The Walkeshwar Temple, located in Malabar Hill, Mumbai, is dedicated to Lord Shiva and is an important religious site. It is one of the most revered temples in Mumbai, known for its serene atmosphere, stunning architecture, and religious significance to the city's devotees."
 
                  link="https://www.google.com/maps/place/Shri+Walkeshwar+Temple,+Mumbai/@18.9456144,72.7906177,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7cdf9899a8b5b:0xcbbe7589ec985cdc!8m2!3d18.9456144!4d72.7931926!16zL20vMDViZDRs?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
 
-                 category="Category:Religious site"
+                 category="Religious site"
                  
                  website=""
 
@@ -506,7 +514,105 @@ export default function AllTourist() {
 
                  />
 
+                 {/* Historical and heritage sites */}
+                 <ShowTourist 
+                 heading="Canheri Caves"
 
+                 location="Location:Mumbai, Maharashtra 400101"
+
+                 img="https://www.holidify.com/images/cmsuploads/compressed/1034_20190405125926.jpg"
+
+                 para="The Kanheri Caves, located in Sanjay Gandhi National Park, Mumbai, are an important historical and religious site. These ancient rock-cut caves, dating back to the 1st century BCE, are known for their serene atmosphere, intricate Buddhist carvings, and stunning architecture. They hold great significance as a center of Buddhist learning and meditation, attracting devotees and history enthusiasts from across the city.."
+
+                 link="https://www.google.com/maps/place/Kanheri+Caves/@19.2058464,72.8678814,14z/data=!3m1!4b1!4m6!3m5!1s0x3be7b9e6e2b92f91:0xbf74be4bdbb53955!8m2!3d19.2058509!4d72.9068504!16s%2Fg%2F11v9m1r0tt?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D."
+
+                 category="Historical and heritage sites"
+                 
+                 website=""
+
+                 webname=""
+
+                 />
+
+                 <ShowTourist 
+                 heading="Bombay High Court"
+
+                 location="Location:The Registrar General, Bombay High Court, Fort, Mumbai"
+
+                 img="https://cdnbbsr.s3waas.gov.in/s388ef51f0bf911e452e8dbb1d807a81ab/uploads/2020/12/2020123069.jpg"
+
+                 para="The Bombay High Court, located in Mumbai, is an important historical and judicial landmark. This iconic colonial-era building, dating back to the 19th century, is known for its grand Gothic architecture, intricate detailing, and significant role in India's legal system. It holds great importance as one of the oldest high courts in the country, serving as a center of justice and governance, attracting legal professionals, historians, and architecture enthusiasts from across the city."
+
+                 link="https://www.google.com/maps/place/Kanheri+Caves/@19.2058464,72.8678814,14z/data=!3m1!4b1!4m6!3m5!1s0x3be7b9e6e2b92f91:0xbf74be4bdbb53955!8m2!3d19.2058509!4d72.9068504!16s%2Fg%2F11v9m1r0tt?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D."
+
+                 category="Historical and heritage sites"
+                 
+                 website=""
+
+                 webname=""
+
+                 />
+
+                 <ShowTourist 
+                 heading="Asiatic Society Library"
+
+                 location="Location:WRJP+P8M, Town Hall, Shahid Bhagat Singh Rd, Fort, Mumbai"
+
+                 img="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/7/2017/01/180117_asiaticlibrary01.jpg"
+
+                 para="The Bombay High Court, located in Mumbai, is an important historical and judicial landmark. This iconic colonial-era building, dating back to the 19th century, is known for its grand Gothic architecture and significant role in India's legal system. It holds great importance as one of the oldest high courts in the country, serving as a center of justice and governance."
+
+                 link="https://www.google.com/maps/place/The+Asiatic+Society,+Mumbai/@18.9318486,72.8332247,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7d1db2d1680df:0x2ce4015ac112d3f9!8m2!3d18.9318486!4d72.8357996!16zL20vMDU0eXQx?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
+
+                 category="Historical and heritage sites"
+                 
+                 website=""
+
+                 webname=""
+
+                 /> 
+               
+ 
+                 <ShowTourist 
+                 heading="Kotachi Wadi"
+
+                 location="Location:Kotachi Wadi,Girgaon Mumbai"
+
+                 img="  https://assets.architecturaldigest.in/photos/60e2a2240e8686d95b697a68/master/w_1600%2Cc_limit/In%252520the%252520heart%252520of%252520South%252520Mumbai%2C%252520this%252520quaint%252520urban%252520village%252520Khotachiwadi%252520features%252520the%252520best%252520there%252520is%2525208.jpg"
+
+                 para="Khotachiwadi is a heritage village in Girgaon, Mumbai, India. Houses generally conform to the old-Portuguese style architecture. It was founded in the late 18th century by Khot, a Pathare prabhu, who sold plots of land to local East Indian families"
+
+                 link="https://www.google.com/maps/place/Kotachi+Wadi,+Girgaon,+Mumbai,+Maharashtra+400004/@18.9555129,72.8193896,18z/data=!3m1!4b1!4m6!3m5!1s0x3be7ce10dd1a49d3:0x418f66cf8cb0abd8!8m2!3d18.9556405!4d72.820307!16zL20vMDZ3OHNs?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
+
+                 category="Historical and heritage sites"
+                 
+                 website=""
+
+                 webname=""
+
+                 /> 
+
+                <ShowTourist 
+                 heading="Global Vipassana Pagoda"
+
+                 location="Location:Essel world Amusement Park, Bhayandar West, Mira Bhayandar, Mumbai"
+
+                 img="https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/global-vipassana-pagoda.jpg"
+
+                 para="The Global Vipassana Pagoda is a prominent spiritual site in Gorai, Mumbai, India, known for its grand, modern architecture. Built in the early 21st century under S.N. Goenka’s guidance, it serves as a center for Vipassana meditation and promotes peace. The pagoda’s immense dome is one of the largest stone structures of its kind, symbolizing the global spread of Vipassana."
+
+                 link="https://www.google.com/maps/place/Kotachi+Wadi,+Girgaon,+Mumbai,+Maharashtra+400004/@18.9555129,72.8193896,18z/data=!3m1!4b1!4m6!3m5!1s0x3be7ce10dd1a49d3:0x418f66cf8cb0abd8!8m2!3d18.9556405!4d72.820307!16zL20vMDZ3OHNs?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
+
+                 category="Historical and heritage sites"
+                 
+                 website=""
+
+                 webname=""
+
+                 /> 
+
+
+                 
 
                  <AllFooter/>
             </div>
