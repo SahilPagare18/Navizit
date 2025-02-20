@@ -790,7 +790,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Juhu Beach"
         location="Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/juhubeach.jpg"
         para="Juhu Beach is one of Mumbai's most popular beaches, known for its lively atmosphere and street food stalls offering local delicacies."
         link="https://www.google.com/maps/search/Juhu+Beach+Mumbai"
         website=""
@@ -801,7 +801,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Versova Beach"
         location="Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/versova.jpg"
         para="Versova Beach is a continuation of Juhu Beach, offering a relatively quieter environment and known for its fishing community."
         link="https://www.google.com/maps/search/Versova+Beach+Mumbai"
         website=""
@@ -812,7 +812,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Gorai Beach"
         location="Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/gorai.jpg"
         para="Located in the Gorai Village, Gorai Beach is a serene spot popular among locals for its peaceful environment and beautiful sunsets."
         link="https://www.google.com/maps/search/Gorai+Beach+Mumbai"
         website=""
@@ -823,7 +823,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Aksa Beach"
         location="Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/aksha.avif"
         para="Aksa Beach is known for its clean and less crowded shoreline, making it a perfect spot for a peaceful retreat."
         link="https://www.google.com/maps/search/Aksa+Beach+Mumbai"
         website=""
@@ -834,7 +834,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Madh Island Beach"
         location="Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/madh.jpg"
         para="Surrounded by mangroves, Madh Island Beach offers a tranquil escape from the city's hustle and is known for its fishing villages."
         link="https://www.google.com/maps/search/Madh+Island+Beach+Mumbai"
         website=""
@@ -845,7 +845,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Marvé Beach"
         location="Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/marve-beach-mumbai-1.jpg"
         para="Marvé Beach is a narrow beach known for its cashew nut groves and a medieval Portuguese church, offering a romantic charm."
         link="https://www.google.com/maps/search/Marvé+Beach+Mumbai"
         website=""
@@ -856,7 +856,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Manori Beach"
         location="Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/mahohari.jpg"
         para="Manori Beach is a pristine beach offering a peaceful environment, making it an ideal weekend getaway."
         link="https://www.google.com/maps/search/Manori+Beach+Mumbai"
         website=""
@@ -867,7 +867,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Dahanu Beach"
         location="Thane"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/dahanu.jpg"
         para="Dahanu Beach is a quaint, idyllic beach known for its dark sand and surrounding fruit orchards, famous for chikoo plantations."
         link="https://www.google.com/maps/search/Dahanu+Beach+Thane"
         website=""
@@ -878,7 +878,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Kalamb Beach"
         location="Thane"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/kalamb-beach.jpg"
         para="Kalamb Beach is a pristine beach with soft black sands, dotted with palm trees, great for long walks amidst crisp sea breeze."
         link="https://www.google.com/maps/search/Kalamb+Beach+Thane"
         website=""
@@ -889,7 +889,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Pirwadi Beach"
         location="Navi Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/parwadi.webp"
         para="Pirwadi Beach is a hidden gem near the bustling city, known for its clear white sand and crystal blue water, making it a fantastic destination for a relaxing holiday."
         link="https://www.google.com/maps/search/Pirwadi+Beach+Navi+Mumbai"
         website=""
@@ -900,7 +900,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Uran Beach"
         location="Navi Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/uran.jpg"
         para="Uran Beach offers picturesque shores and a tranquil environment, making it a perfect escape from the noise of city life."
         link="https://www.google.com/maps/search/Uran+Beach+Navi+Mumbai"
         website=""
@@ -911,7 +911,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Kegav Beach"
         location="Navi Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/kegav.jpg"
         para="Kegav Beach is known for its beautiful temples and proximity to other attractions like Uran Beach and Pirwadi Beach, offering a serene environment for visitors."
         link="https://www.google.com/maps/search/Kegav+Beach+Navi+Mumbai"
         website=""
@@ -923,7 +923,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Kelva Beach"
         location="Thane"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/kelva.jpg"
         para="Kelva Beach is known for its extensive shoreline and scenic beauty, making it a popular spot for picnics and weekend getaways."
         link="https://www.google.com/maps/search/Kelva+Beach+Thane"
         website=""
@@ -934,7 +934,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Arnala Beach"
         location="Thane"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/arnala.jpg"
         para="Arnala Beach is a popular destination known for its serene environment and proximity to the historic Arnala Fort."
         link="https://www.google.com/maps/search/Arnala+Beach+Thane"
         website=""
@@ -945,7 +945,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Rajodi Beach"
         location="Nala Sopara"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/rajodi.jpg"
         para="Rajodi Beach is known for its clean sands and tranquil atmosphere, making it a great spot for relaxation and enjoying sunsets."
         link="https://www.google.com/maps/search/Rajodi+Beach+NalaSopara"
         website=""
@@ -956,7 +956,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Dadar Chowpatty Beach"
         location="Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/dadar_chowpatty_beach.jpg"
         para="Dadar Chowpatty Beach is a popular spot among locals, offering a lively atmosphere and beautiful views of the sunset."
         link="https://www.google.com/maps/search/Dadar+Chowpatty+Beach+Mumbai"
         website=""
@@ -967,7 +967,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Erangal Beach"
         location="Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/Erangal-Beach-Mumbai.jpg"
         para="Erangal Beach is a serene spot located near Madh Island, known for its peaceful environment and scenic beauty."
         link="https://www.google.com/maps/search/Erangal+Beach+Mumbai"
         website=""
@@ -1022,7 +1022,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Carter Road Promenade"
         location="Bandra, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/carter%20road.jpg"
         para="Carter Road Promenade is a scenic waterfront walkway in Bandra, known for its lively atmosphere, sea-facing cafés, and stunning sunset views."
         link="https://www.google.com/maps/search/Carter+Road+Promenade+Mumbai"
         website=""
@@ -1033,7 +1033,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Nariman Point"
         location="South Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/nariman-point.jpg"
         para="Nariman Point is Mumbai's business hub with a stunning seafront, offering spectacular views of Marine Drive and the Arabian Sea."
         link="https://www.google.com/maps/search/Nariman+Point+Mumbai"
         website=""
@@ -1044,7 +1044,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Girgaon Chowpatty"
         location="Girgaon, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/girgaonchowpatty.jpg"
         para="Girgaon Chowpatty is a famous seafront in Mumbai, known for its Ganesh Visarjan celebrations and street food stalls."
         link="https://www.google.com/maps/search/Girgaon+Chowpatty+Mumbai"
         website=""
@@ -1055,7 +1055,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Sewri Jetty"
         location="Sewri, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/sewrijetty.jpg"
         para="Sewri Jetty is a coastal area known for its mangroves and as a seasonal haven for flamingos, attracting bird watchers and nature enthusiasts."
         link="https://www.google.com/maps/search/Sewri+Jetty+Mumbai"
         website=""
@@ -1065,7 +1065,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Sassoon Docks"
         location="Colaba, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/sasoondocks.jpg"
         para="Sassoon Docks is one of the oldest docks in Mumbai, offering a glimpse into the city's fishing industry and vibrant seafood markets."
         link="https://www.google.com/maps/search/Sassoon+Docks+Mumbai"
         website=""
@@ -1075,22 +1075,13 @@ export default function AllTourist() {
       <ShowTourist
         heading="Chimbai Beach"
         location="Bandra, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/beach/chimbai.webp"
         para="Chimbai Beach is a quaint beach located in Bandra, offering a glimpse into the local fishing community and a peaceful coastal experience."
         link="https://www.google.com/maps/search/Chimbai+Beach+Mumbai"
         website=""
         webname=""
         category="Beaches & Coastal Areas"
       />
-
-
-
-
-
-
-
-
-
 
       {/* Museums & Art Galleries */}
       <ShowTourist
@@ -1160,7 +1151,7 @@ export default function AllTourist() {
       />
 
       <ShowTourist
-        heading="Bhaucha Dhakka Maritime Museum"
+        heading="Maritime Museum"
         location="Mazgaon, Mumbai"
         img=""
         para="A museum dedicated to Mumbai's maritime history and naval artifacts."
