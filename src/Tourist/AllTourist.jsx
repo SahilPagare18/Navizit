@@ -72,40 +72,8 @@ export default function AllTourist() {
 
                  />
 
-                 <ShowTourist 
-                 heading="BANDRA WORLI SEA LINK"
+              
 
-                 location="Location: Bandra Worli Sea Link, Mount Mary, Bandra West, Mumbai"
-
-                 img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/Bandra-Worli-Sea-Link.webp"
-
-                 para="Embark on a mesmerizing journey across the Bandra-Worli Sea Link, an engineering marvel that seamlessly connects Mumbai's suburbs. As you traverse this cable-stayed bridge, prepare to be captivated by the awe-inspiring views of the Arabian Sea and the city's glittering skyline."
-
-                 link="https://www.google.com/maps/place/Bandra+-+Worli+Sea+Link,+Mount+Mary,+Bandra+West,+Mumbai,+Maharashtra/@19.0425459,72.8205325,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7ceb3b002576f:0xf51617363a2f6536!8m2!3d19.0425408!4d72.8231074!16s%2Fg%2F11cfmj34c?entry=ttu"
-                 
-                 website=""
-
-                 webname=""
-
-                 />
-
-                 <ShowTourist 
-                 heading="MARINE DRIVE"
-
-                 location="Location: The Netaji Subhash Chandra Bose Road"
-
-                 img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/marine-drive.avif"
-
-                 para="Mumbai's Marine Drive is an iconic seafront promenade, known for its distinctive crescent shape and glittering cityscape views. Often called the Queen's Necklace when lit up at night, it's a beloved spot for leisurely walks and enjoying breathtaking sunsets."
-
-                 link="https://www.google.com/maps/place/Marine+Dr,+Mumbai/@18.9432161,72.8181274,17z/data=!3m1!4b1!4m10!1m2!2m1!1s+the+Netaji+Subhash+Chandra+Bose+Road+in+Mumbai,+India!3m6!1s0x3be7d1e25ee8439d:0x5acd924f2726ad2b!8m2!3d18.9432111!4d72.8229983!15sCjV0aGUgTmV0YWppIFN1Ymhhc2ggQ2hhbmRyYSBCb3NlIFJvYWQgaW4gTXVtYmFpLCBJbmRpYZIBBXRyYWls4AEA!16zL20vMDM1Nnls?entry=ttu"
-                 
-                 website=""
-
-                 webname=""
-
-                 
-                 />
 
                 <ShowTourist 
                  heading="BANDRA BANDSTAND"
@@ -174,6 +142,8 @@ export default function AllTourist() {
 
                  webname="Nehru Centre"
 
+                 category="Museums & Art Galleries"
+
                  />
                   <ShowTourist 
                  heading="TARAPOREVALA AQUARIUM"
@@ -206,6 +176,8 @@ export default function AllTourist() {
                  website="https://www.bdlmuseum.org/"
 
                  webname="DR. Bhau Daji Lad Museum"
+
+                 category="Museums & Art Galleries"
 
                  />
                  
@@ -978,7 +950,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Marine Drive"
         location="South Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/marine-drive.avif"
         para="Marine Drive, also known as the Queen's Necklace, is a scenic 3.6 km-long boulevard along the Arabian Sea, popular for its breathtaking views and evening walks."
         link="https://www.google.com/maps/search/Marine+Drive+Mumbai"
         website=""
@@ -1000,7 +972,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Worli Sea Face"
         location="Worli, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/pratik907-web/image-hosting1/refs/heads/main/Bandra-Worli-Sea-Link.webp"
         para="Worli Sea Face is a beautiful coastal stretch offering stunning views of the Arabian Sea and the Bandra-Worli Sea Link, popular for morning and evening walks."
         link="https://www.google.com/maps/search/Worli+Sea+Face+Mumbai"
         website=""
@@ -1084,32 +1056,11 @@ export default function AllTourist() {
       />
 
       {/* Museums & Art Galleries */}
-      <ShowTourist
-        heading="Chhatrapati Shivaji Maharaj Vastu Sangrahalaya"
-        location="Fort, Mumbai"
-        img=""
-        para="One of Mumbai's premier museums, showcasing art, archaeology, and natural history exhibits."
-        link="https://www.google.com/maps/search/Chhatrapati+Shivaji+Maharaj+Vastu+Sangrahalaya+Fort,+Mumbai"
-        website=""
-        webname=""
-        category="Museums & Art Galleries"
-      />
-
-      <ShowTourist
-        heading="Dr. Bhau Daji Lad Museum"
-        location="Byculla, Mumbai"
-        img=""
-        para="Mumbai’s oldest museum featuring decorative arts, industrial arts, and historical artifacts."
-        link="https://www.google.com/maps/search/Dr.+Bhau+Daji+Lad+Museum+Byculla,+Mumbai"
-        website=""
-        webname=""
-        category="Museums & Art Galleries"
-      />
-
+  
       <ShowTourist
         heading="Jehangir Art Gallery"
         location="Kala Ghoda, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/museum/jehangir.jpg"
         para="A renowned art gallery exhibiting contemporary Indian art and hosting various cultural events."
         link="https://www.google.com/maps/search/Jehangir+Art+Gallery+Kala+Ghoda,+Mumbai"
         website=""
@@ -1120,7 +1071,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="National Gallery of Modern Art"
         location="Colaba, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/museum/nationalGallery.jpg"
         para="A major art gallery showcasing modern and contemporary Indian artworks."
         link="https://www.google.com/maps/search/National+Gallery+of+Modern+Art+Colaba,+Mumbai"
         website=""
@@ -1131,7 +1082,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Prince of Wales Museum"
         location="Fort, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/museum/prince-of-wales-museum-.jpg"
         para="A museum with a vast collection of art, sculptures, and artifacts from across India."
         link="https://www.google.com/maps/search/Prince+of+Wales+Museum+Fort,+Mumbai"
         website=""
@@ -1142,7 +1093,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Red Carpet Wax Museum"
         location="Ghatkopar, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/museum/redcarpetwax.webp"
         para="A wax museum featuring life-like figures of celebrities, historical icons, and famous personalities."
         link="https://www.google.com/maps/search/Red+Carpet+Wax+Museum+Ghatkopar,+Mumbai"
         website=""
@@ -1153,20 +1104,9 @@ export default function AllTourist() {
       <ShowTourist
         heading="Maritime Museum"
         location="Mazgaon, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/museum/maritime%20museum.jpg"
         para="A museum dedicated to Mumbai's maritime history and naval artifacts."
         link="https://www.google.com/maps/search/Bhaucha+Dhakka+Maritime+Museum+Mazgaon,+Mumbai"
-        website=""
-        webname=""
-        category="Museums & Art Galleries"
-      />
-
-      <ShowTourist
-        heading="Thane Museum"
-        location="Thane, Mumbai"
-        img=""
-        para="A museum highlighting the history and culture of Thane city through various exhibits."
-        link="https://www.google.com/maps/search/Thane+Museum+Thane,+Mumbai"
         website=""
         webname=""
         category="Museums & Art Galleries"
@@ -1186,28 +1126,19 @@ export default function AllTourist() {
       <ShowTourist
         heading="Modern Art Gallery Navi Mumbai"
         location="Vashi, Navi Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/museum/nationalGallerymodernart.JPG"
         para="An art gallery promoting modern and contemporary artists in Navi Mumbai."
         link="https://www.google.com/maps/search/Modern+Art+Gallery+Navi+Mumbai+Vashi,+Navi+Mumbai"
         website=""
         webname=""
         category="Museums & Art Galleries"
       />
-      <ShowTourist
-        heading="Nehru Science Centre"
-        location="Worli, Mumbai"
-        img=""
-        para="India's largest interactive science center, offering hands-on exhibits and educational programs."
-        link="https://www.google.com/maps/search/Nehru+Science+Centre+Worli,+Mumbai"
-        website=""
-        webname=""
-        category="Museums & Art Galleries"
-      />
+  
 
       <ShowTourist
         heading="Thane Kala Bhavan"
         location="Thane, Maharashtra"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/museum/thanekalabhavan.jpeg"
         para="An art gallery managed by the Thane Municipal Corporation, showcasing various art exhibitions."
         link="https://www.google.com/maps/search/Thane+Kala+Bhavan+Thane,+Maharashtra"
         website=""
@@ -1217,7 +1148,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Rhythm Art Gallery"
         location="Bandra West, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/museum/rhynthmgallery.jpg"
         para="A contemporary art gallery showcasing a diverse range of artworks from emerging and established artists."
         link="https://www.google.com/maps/search/Rhythm+Art+Gallery+Bandra+West,+Mumbai"
         website=""
@@ -1228,7 +1159,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Painted Rhythm Art Gallery"
         location="Juhu, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/museum/painted%20rhynthm.jpg"
         para="An art gallery known for its curated exhibitions featuring modern and contemporary art pieces."
         link="https://www.google.com/maps/search/Painted+Rhythm+Art+Gallery+Juhu,+Mumbai"
         website=""
@@ -1239,7 +1170,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Volte Art Gallery"
         location="Colaba, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/museum/walkartgallery.webp"
         para="A gallery presenting avant-garde and contemporary art, including sculptures and installations."
         link="https://www.google.com/maps/search/Volte+Art+Gallery+Colaba,+Mumbai"
         website=""
@@ -1250,7 +1181,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Sakshi Gallery"
         location="Colaba, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/museum/sakshiartgallery.jpg"
         para="A prominent gallery featuring contemporary Indian art across various mediums."
         link="https://www.google.com/maps/search/Sakshi+Gallery+Colaba,+Mumbai"
         website=""
@@ -1261,7 +1192,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Chemould Prescott Road"
         location="Fort, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/museum/Chemould%20Prescott%20Road.jpg"
         para="One of India's oldest commercial art galleries, showcasing modern and contemporary art."
         link="https://www.google.com/maps/search/Chemould+Prescott+Road+Fort,+Mumbai"
         website=""
@@ -1272,7 +1203,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="TARQ"
         location="Colaba, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/museum/tarq-gallery-squareworks_10.jpg"
         para="A contemporary art gallery focusing on promoting emerging artists and experimental art forms."
         link="https://www.google.com/maps/search/TARQ+Colaba,+Mumbai"
         website=""
@@ -1283,7 +1214,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Jhaveri Contemporary"
         location="Colaba, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/museum/jhaveri.avif"
         para="A gallery specializing in contemporary art from South Asia and its diaspora."
         link="https://www.google.com/maps/search/Jhaveri+Contemporary+Colaba,+Mumbai"
         website=""
@@ -1294,7 +1225,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Art Musings"
         location="Colaba, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/museum/Art-musings.webp"
         para="A gallery showcasing a mix of established and emerging artists in the contemporary art scene."
         link="https://www.google.com/maps/search/Art+Musings+Colaba,+Mumbai"
         website=""
@@ -1305,7 +1236,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Cymroza Art Gallery"
         location="Bhulabhai Desai Road, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/museum/cymrozaArtboard.jpg"
         para="A well-established gallery promoting Indian contemporary art through exhibitions and events."
         link="https://www.google.com/maps/search/Cymroza+Art+Gallery+Bhulabhai+Desai+Road,+Mumbai"
         website=""
@@ -1316,7 +1247,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Method Art Space"
         location="Kala Ghoda, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/museum/Method%20Art%20Space.avif"
         para="A contemporary art space known for its experimental exhibitions and installations."
         link="https://www.google.com/maps/search/Method+Art+Space+Kala+Ghoda,+Mumbai"
         website=""
