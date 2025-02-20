@@ -615,7 +615,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Essel World"
         location="Gorai, Mumbai"
-        img="https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/global-vipassana-pagoda.jpg"
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/esselworld.jpg"
         para="One of India's largest amusement parks, offering a variety of thrilling rides and attractions suitable for all ages."
         link="https://www.google.com/maps/search/Essel+World%2C+Gorai%2C+Mumbai"
         website=""
@@ -626,7 +626,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Water Kingdom"
         location="Gorai, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/water-kingdom.jpg"
         para="Asia's largest theme water park, featuring numerous water rides and attractions for a fun-filled day."
         link="https://www.google.com/maps/search/Water+Kingdom%2C+Gorai%2C+Mumbai"
         website=""
@@ -637,7 +637,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Yazoo Park"
         location="Virar, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/yazookpark.jpg"
         para="A recreation center offering fun rides, rock shows, games, dining, and spa facilities."
         link="https://www.google.com/maps/search/Yazoo+Park%2C+Virar%2C+Mumbai"
         website=""
@@ -648,7 +648,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Hakone"
         location="Powai, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/Hakonepark.jpg"
         para="An entertainment center offering a mix of sports, entertainment, and recreation, including go-karting and paintball."
         link="https://www.google.com/maps/search/Hakone%2C+Powai%2C+Mumbai"
         website=""
@@ -659,7 +659,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Snow World"
         location="Kurla, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/SnowWorld.jpg"
         para="An indoor snow park offering activities like snowboarding, sledging, and ice skating."
         link="https://www.google.com/maps/search/Snow+World%2C+Kurla%2C+Mumbai"
         website=""
@@ -670,7 +670,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Vardhaman Fantasy"
         location="Mira Road, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/vardhaman.webp"
         para="A theme park featuring replicas of the Seven Wonders of the World and various amusement rides."
         link="https://www.google.com/maps/search/Vardhaman+Fantasy%2C+Mira+Road%2C+Mumbai"
         website=""
@@ -681,7 +681,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Tikuji-Ni-Wadi"
         location="Thane, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/Tikujiniwadi.jpg"
         para="An amusement park, water park, and resort offering various rides, a Shiva temple, and a realistic dinosaur park."
         link="https://www.google.com/maps/search/Tikuji-Ni-Wadi%2C+Thane%2C+Mumbai"
         website=""
@@ -692,7 +692,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Della Adventure"
         location="Lonavala, near Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/Della-Adventure-Park.jpg"
         para="An adventure park offering over 50 activities, including the longest flying fox, rock climbing, and ATV rides."
         link="https://www.google.com/maps/search/Della+Adventure%2C+Lonavala%2C+near+Mumbai"
         website=""
@@ -703,7 +703,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Wonders Park"
         location="Nerul, Navi Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/WonderPark.jpg"
         para="An amusement park featuring high-tech rides, a toy train, and a replica of the Seven Wonders of the World."
         link="https://www.google.com/maps/search/Wonders+Park%2C+Nerul%2C+Navi+Mumbai"
         website=""
@@ -714,7 +714,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Visava Amusement Park & Resort"
         location="Panvel, Navi Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/VisawaPArk.avif"
         para="A park offering exciting water slides and adventure activities like free fall, Burma bridge, and zipline crossing."
         link="https://www.google.com/maps/search/Visava+Amusement+Park+%26+Resort%2C+Panvel%2C+Navi+Mumbai"
         website=""
@@ -725,7 +725,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Shangrila Water Park and Amusement Park"
         location="Thane, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/Shangrila.jpg"
         para="A water park and amusement park offering a variety of water slides, pools, and amusement rides for a fun-filled day."
         link="https://www.google.com/maps/search/Shangrila+Water+Park+and+Amusement+Park,+Thane,+Mumbai"
         website=""
@@ -736,7 +736,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Suraj Water Park"
         location="Thane, Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/suraj-water-park.jpg"
         para="A water park featuring numerous slides, wave pools, and a relaxing environment suitable for families and friends."
         link="https://www.google.com/maps/search/Suraj+Water+Park,+Thane,+Mumbai"
         website=""
@@ -747,7 +747,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Shivganga Water Park"
         location="Panvel, Navi Mumbai"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/shivganga.jpg"
         para="A water park offering various slides, pools, and fun activities, making it a great spot for family outings."
         link="https://www.google.com/maps/search/Shivganga+Water+Park,+Panvel,+Navi+Mumbai"
         website=""
@@ -758,7 +758,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Anand Sagar Resort and Water Park"
         location="Ambernath, Thane"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/AnandSagarResort.jpg"
         para="A resort and water park providing a range of water slides, pools, and recreational activities for visitors of all ages."
         link="https://www.google.com/maps/search/Anand+Sagar+Resort+and+Water+Park,+Ambernath,+Thane"
         website=""
@@ -769,7 +769,7 @@ export default function AllTourist() {
       <ShowTourist
         heading="Great Escape Water Park"
         location="Virar, Thane"
-        img=""
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/greatescape.jpg"
         para="A water park offering a variety of slides, wave pools, and entertainment options, perfect for a day out with family and friends."
         link="https://www.google.com/maps/search/Great+Escape+Water+Park,+Virar,+Thane"
         website=""
@@ -919,16 +919,6 @@ export default function AllTourist() {
         category="Beaches & Coastal Areas"
       />
 
-      <ShowTourist
-        heading="NRI Complex Beach"
-        location="Navi Mumbai"
-        img=""
-        para="NRI Complex Beach offers picturesque shores and a tranquil environment, making it a perfect escape from the noise of city life."
-        link="https://www.google.com/maps/search/NRI+Complex+Beach+Navi+Mumbai"
-        website=""
-        webname=""
-        category="Beaches & Coastal Areas"
-      />
 
       <ShowTourist
         heading="Kelva Beach"
