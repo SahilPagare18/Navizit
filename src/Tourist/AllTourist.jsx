@@ -90,6 +90,7 @@ export default function AllTourist() {
 
                  webname=""
 
+                category="Beaches & Coastal Areas"
                  />
                   <ShowTourist 
                  heading="CHHATRAPATI SHIVAJI MAHARAJ VASTU SANGHRALAYA"
@@ -958,16 +959,6 @@ export default function AllTourist() {
         category="Beaches & Coastal Areas"
       />
 
-      <ShowTourist
-        heading="Bandra Bandstand"
-        location="Bandra, Mumbai"
-        img=""
-        para="Bandra Bandstand is a famous promenade along the Arabian Sea, known for its sea-facing walkway, scenic views, and being home to Bollywood celebrities."
-        link="https://www.google.com/maps/search/Bandra+Bandstand+Mumbai"
-        website=""
-        webname=""
-        category="Beaches & Coastal Areas"
-      />
 
       <ShowTourist
         heading="Worli Sea Face"
@@ -979,18 +970,7 @@ export default function AllTourist() {
         webname=""
         category="Beaches & Coastal Areas"
       />
-
-      <ShowTourist
-        heading="Bandra-Worli Sea Link"
-        location="Mumbai"
-        img=""
-        para="The Bandra-Worli Sea Link is an iconic cable-stayed bridge connecting Bandra and Worli, offering breathtaking views of the Mumbai skyline."
-        link="https://www.google.com/maps/search/Bandra-Worli+Sea+Link+Mumbai"
-        website=""
-        webname=""
-        category="Beaches & Coastal Areas"
-      />
-
+      
       <ShowTourist
         heading="Carter Road Promenade"
         location="Bandra, Mumbai"
@@ -1112,16 +1092,7 @@ export default function AllTourist() {
         category="Museums & Art Galleries"
       />
 
-      <ShowTourist
-        heading="Belapur Fort Museum"
-        location="Belapur, Navi Mumbai"
-        img=""
-        para="A historical museum dedicated to the Belapur Fort and surrounding heritage sites."
-        link="https://www.google.com/maps/search/Belapur+Fort+Museum+Belapur,+Navi+Mumbai"
-        website=""
-        webname=""
-        category="Museums & Art Galleries"
-      />
+     
 
       <ShowTourist
         heading="Modern Art Gallery Navi Mumbai"
