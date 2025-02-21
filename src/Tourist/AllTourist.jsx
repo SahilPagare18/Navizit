@@ -1035,6 +1035,17 @@ export default function AllTourist() {
         category="Beaches & Coastal Areas"
       />
 
+       <ShowTourist
+        heading="Bhaucha Dhhaka Maritime "
+        location="Princess Dock, Mumbai Port Trust, Mazgaon, Mumbai, Maharashtra"
+        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/museum/maritime%20museum.jpg"
+        para="Located near Mazgaon in South Mumbai, Bhaucha Dhakka is a historic ferry wharf that serves as a major gateway for fishing boats and ferries. This bustling harbor is one of the oldest docks in Mumbai, playing a crucial role in the city's maritime trade and local transport."
+        link="https://www.google.com/maps/search/Bhaucha+Dhakka+Maritime+Museum+Mazgaon,+Mumbai"
+        website=""
+        webname=""
+        category="Beaches & Coastal Areas"
+      />
+
       {/* Museums & Art Galleries */}
   
       <ShowTourist
@@ -1080,19 +1091,6 @@ export default function AllTourist() {
         webname=""
         category="Museums & Art Galleries"
       />
-
-      <ShowTourist
-        heading="Maritime Museum"
-        location="Mazgaon, Mumbai"
-        img="https://raw.githubusercontent.com/SahilPagare18/Navizit/refs/heads/main/src/images/museum/maritime%20museum.jpg"
-        para="A museum dedicated to Mumbai's maritime history and naval artifacts."
-        link="https://www.google.com/maps/search/Bhaucha+Dhakka+Maritime+Museum+Mazgaon,+Mumbai"
-        website=""
-        webname=""
-        category="Museums & Art Galleries"
-      />
-
-     
 
       <ShowTourist
         heading="Modern Art Gallery Navi Mumbai"
