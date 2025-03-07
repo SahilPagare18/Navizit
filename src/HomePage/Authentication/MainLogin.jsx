@@ -32,7 +32,7 @@ const MainLogin = () => {
       setErrors(formErrors);
     } else {
       try {
-        const response = await fetch('https://navizit1.onrender.com/api/login', {
+        const response = await fetch('http://localhost:3004/api/login', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
