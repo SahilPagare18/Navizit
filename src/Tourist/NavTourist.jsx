@@ -6,21 +6,9 @@ export default function NavTourist() {
   const [isOpen, setIsOpen] = useState(false);
   const [theme, setTheme] = useState(() => localStorage.getItem("theme") || "light");
 
-  useEffect(() => {
-    const element = document.documentElement;
-    if (theme === "dark") {
-      element.classList.add("dark");
-      document.body.classList.add("dark");
-    } else {
-      element.classList.remove("dark");
-      document.body.classList.remove("dark");
-    }
-    localStorage.setItem("theme", theme);
-  }, [theme]);
+  
 
-  const toggleTheme = () => {
-    setTheme(prevTheme => (prevTheme === "dark" ? "light" : "dark"));
-  };
+ 
 
   return (
     <nav className="relative bg-gray-900 text-white p-4 dark:bg-gray-800">
@@ -38,7 +26,7 @@ export default function NavTourist() {
         {/* Navbar Links */}
         <div className="hidden md:flex md:items-center md:justify-between">
           <div className="flex flex-row space-x-6">
-            <Link to="/touristplaces" className="hover-animate font-serif flex items-center">
+            <Link to="/searchandrecommend" className="hover-animate font-serif flex items-center">
               <span className="material-symbols-outlined">travel_explore</span>
               <p className='ml-2'>Tourist Places</p>
             </Link>
@@ -57,14 +45,7 @@ export default function NavTourist() {
           </div>
         </div>
 
-        {/* Theme Toggle Button */}
-        <button onClick={toggleTheme} className="ml-4 text-xl">
-          {theme === "light" ? (
-            <i className="fa-solid fa-moon"></i>
-          ) : (
-            <i className="fa-solid fa-sun"></i>
-          )}
-        </button>
+       
       </div>
       
       {/* Sliding Menu */}

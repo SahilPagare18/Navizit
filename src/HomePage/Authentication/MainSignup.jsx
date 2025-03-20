@@ -95,7 +95,7 @@ const MainSignup = () => {
       const data = await response.text();
       if (response.ok) {
         alert("Signup successful! OTP sent.");
-        navigate("/verify", { state: { email, username, password, categories: selectedCategories } });
+        navigate("/verify", { state: { email, username, password, category:selectedCategories} });
       } else {
         alert(`Signup failed: ${data}`);
       }
@@ -127,7 +127,7 @@ const MainSignup = () => {
                 <span>{category}</span>
               </label>
             ))}
-            {errors.categories && <p className="text-red-500 text-sm">{errors.categories}</p>}
+            {errors.category && <p className="text-red-500 text-sm">{errors.category}</p>}
           </div>
 
           <button onClick={handleSignup} className="w-full py-2 mt-6 bg-orange-500 hover:bg-orange-600 rounded-md text-white font-bold">

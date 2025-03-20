@@ -17,7 +17,7 @@ import MainSignup from './HomePage/Authentication/MainSignup';
 import MainLogin from './HomePage/Authentication/MainLogin';
 import VerifyOTP from './HomePage/Authentication/VerifyOtp';
 import Recommendation from './Recommendations/Recommendation';
-
+import SearchAndRecommend from './Tourist/SearchAndRecommend'
 export default function App() {
   return (
     <>
@@ -31,6 +31,7 @@ export default function App() {
         <Route path="/signup" element={<MainSignup />} />
         <Route path="/" element={<MainLogin />} />
         <Route path="/verify" element={<VerifyOTP />} />
+        <Route path="/searchandrecommend" element={<SearchAndRecommend/>} />
 
 
         <Route path="/" element={<PreHome />} />

@@ -6,7 +6,7 @@ const VerifyOTP = () => {
   const navigate = useNavigate();
   
   // Check if location.state exists
-  const { email, username, password } = location.state || {}; // Use optional chaining
+  const { email, username, password,category } = location.state || {}; // Use optional chaining
 
   const [otp, setOtp] = useState('');
   const [error, setError] = useState('');
@@ -25,7 +25,7 @@ const VerifyOTP = () => {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ email, otp, username, password }), // Include username and password
+        body: JSON.stringify({ email, otp, username, password ,category}), // Include username and password
       });
 
       if (response.ok) {

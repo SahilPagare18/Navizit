@@ -7,9 +7,10 @@ import AllEvent from "./Event/AllEvent";
 import AllWeather from "./Weather/AllWeather";
 import AllFooter from "./Footer/AllFooter";
 import ScrollToTop from "../ScrollTop";
-import Recommendation from "../Recommendations/Recommendation";
+import Recommendations from "./Recommendations";
+
 export default function Home() {
-   
+
 
     return (
         <>
@@ -20,6 +21,7 @@ export default function Home() {
                     <Explore />
                 </div>
                 <AllCircles />
+                 <Recommendations/>
                 <AllEvent />
                 <AllWeather />
                 <AllFooter />

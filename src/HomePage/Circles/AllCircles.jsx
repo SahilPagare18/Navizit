@@ -20,7 +20,7 @@ export default function AllCircles() {
 
                 <div className="mt-6 w-[900px] mr-[80px] ml-[250px] h-40 flex justify-around items-center rounded-full 2">
                     {/* Pass the PNG icon as a prop */}
-                    <Circles icon={touristIcon} route="/touristplaces" />
+                    <Circles icon={touristIcon} route="/searchandrecommend" />
                
                     <Circles icon={hospitalIcon} route="/hospitals" />
                     <Circles icon={hotelIcon} route="/hotels" />

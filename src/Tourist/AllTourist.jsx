@@ -25,7 +25,7 @@ export default function AllTourist() {
 
                  link="https://www.google.com/maps/place/Shree+Siddhivinayak+Temple/@19.01699,72.8303997,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7cec0d851ebc3:0xcc61876914526329!8m2!3d19.01699!4d72.8303997!16zL20vMDlxeGc1?entry=ttu"
 
-                 category="RReligious and cultural sites"
+                 category="Religious and cultural sites"
 
                  website="https://www.siddhivinayak.org/"
 

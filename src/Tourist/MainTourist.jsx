@@ -151,8 +151,9 @@ export default function MainTourist() {
                 <div className="mt-4 md:mt-0 md:w-1/2">
                   <div className="bg-gray-100 p-4 rounded-lg shadow">
                     <div className="flex items-center mb-2">
-                      <i className="fa-solid fa-location-dot mr-2 text-gray-500"></i>
-                      <p className="text-gray-700">{currentTouristLocation}</p>
+                      <i className="fa-solid fa-location-dot mr-2 text-blue-600"></i>
+                      <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(currentTouristLocation)}`}className="text-blue-600">{currentTouristLocation}</a>
+                    
                     </div>
                     <hr />
                     <div className="flex items-center mb-2">
